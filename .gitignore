@@ -1,0 +1,16 @@
+# Maven / NetBeans
+target/
+build/
+dist/
+nbproject/private/
+nbbuild/
+# IDEs
+.idea/
+*.iml
+.vscode/
+# Config local con credenciales
+src/main/resources/db.properties
+# SO
+.DS_Store
+Thumbs.db
+*.log
