@@ -1,0 +1,4 @@
+# Copia este archivo como db.properties y ajusta tus credenciales
+db.url=jdbc:mysql://localhost:3306/saludvital?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Guatemala
+db.user=root
+db.password=tu_password
