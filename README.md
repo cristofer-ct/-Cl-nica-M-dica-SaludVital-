@@ -18,3 +18,10 @@ org.cg.system.main
 ├── util/         DBConnection
 └── exceptions/   DataAccessException
 ```
+
+## Apache NetBeans (21 o superior) + JDK 21
+1. `File > Open Project...` y elegir la carpeta `saludvital-clinica` (se detecta como proyecto Maven).
+2. Verificar el JDK: `Tools > Java Platforms` debe tener JDK 21 (o superior).
+3. Clic derecho al proyecto > `Build with Dependencies` (descarga JavaFX y MySQL Connector).
+4. Ejecutar la BD (`sql/*.sql`) y ajustar `src/main/resources/db.properties`.
+5. Botón **Run** (F6) o **Debug** (Ctrl+F5): `nbactions.xml` lo redirige a `javafx:run`.
